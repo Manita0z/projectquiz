@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniproject</title>
+    <link rel="stylesheet" href="firstRound.css">
+</head>
+<body>
+    <div class="content">
+    <a rel="html" href="index.html">
+    <button>Back</button>
+    </a> 
+    
+    <div class="container">
+    <h1>First Round</h1>
+    <h4 id="timer">Countdown:30 seconds</h4>
+
+    <script>
+        // Set the initial countdown value
+        let countdown = 30;
+
+        // Get the element where the timer will be displayed
+        const timerElement = document.getElementById('timer');
+
+        // Function to update the timer display and check for the end of the countdown
+        function updateTimer() {
+            timerElement.textContent = `Countdown: ${countdown} seconds`;
+
+            if (countdown === 0) {
+                clearInterval(timerInterval); // Stop the timer
+                timerElement.textContent = 'Countdown complete!';
+            } else {
+                countdown--;
+            }
+        }
+        if (countdown==10)
+    {
+        rewardpoint=10;
+    }
+    else{
+        rewardpoint=0;
+    }
+
+        // Set up the interval to call the updateTimer function every second (1000 milliseconds)
+        const timerInterval = setInterval(updateTimer, 1000);
+    </script>
+    </div>
+
+    <div class="anotherpage">
+    <a href="secondRound.html">
+        <button>Next</button>
+    <a href="score.html"></a>
+    </a>
+
+    </div>
+    </div>
+</body>
+</html>
