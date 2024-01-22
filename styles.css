@@ -7,8 +7,8 @@ ul.no-list {
     {
      
     /* background-image:url("purple.jpeg") ; */
-    background-size: max(1000px, 100%);
-    background-position: center;
+    /* background-size: max(1000px, 100%);
+    background-position: center; */
     /* height:80vh; */
     width:100vh;
    display: flex;
