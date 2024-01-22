@@ -3,3 +3,57 @@ ul.no-list {
     padding: 0; /* Optionally remove default padding */
     margin: 0; /* Optionally remove default margin */
   }
+  .register
+    {
+     
+    /* background-image:url("purple.jpeg") ; */
+    background-size: max(1000px, 100%);
+    background-position: center;
+    /* height:80vh; */
+    width:100vh;
+   display: flex;
+   backdrop-filter: 18px;
+   border:2px solid green;
+
+    /* justify-content: center; */
+    align-content: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  .email
+  {
+    /* border: 2px solid brown; */
+    padding:5px;
+    margin-left:173px;
+
+  }
+  .name
+  {
+    /* border:2px solid black; */
+    padding:5px;
+    margin-left:169px;
+  }
+  .address
+  {
+    /* border:2px solid purple; */
+    padding:5px;
+    margin-left:156px;
+  }
+  .password
+  {
+    /* border:2px solid blueviolet; */
+    padding:5px;
+    margin-left:150px;
+  }
+  .confirm_password
+  {
+    /* border:2px solid blue; */
+    padding:5px;
+    margin-left:92px;
+  }
+  .submit
+  {
+    /* border:2px solid orange; */
+    padding:30px;
+    margin-left:250px;
+
+  }
